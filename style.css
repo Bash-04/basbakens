@@ -8,7 +8,7 @@
 @media(max-width: 1366px){
 
 }
-@media(max-width: 1440px){
+@media(max-width: 2000px){
 /*header, nav*/
 .header{
     height: 100vmin;
@@ -66,16 +66,16 @@ nav a:hover{
     font-weight: 500;
 }
 .tb1 p{
-    font-size: 6vmin;
+    font-size: 6.5vmin;
     font-weight: 400;
     margin-top: 1vmin;
-    margin-left: 45vmin;
-    margin-right: 45vmin;
+    margin-left: 42vmin;
+    margin-right: 42vmin;
 }
 
 /*middenstuk*/
 .middenstuk{
-    height: 200vmin;
+    height: 215vmin;
 }
 .middenstuk div{
     margin-top: 5vmin;
@@ -106,6 +106,7 @@ nav a:hover{
     height: 40vmin;
     width: 40vmin;
     margin-top: 2vmin;
+    margin-right: 15vmin;
     border-radius: 10000px;
 }
 .l1 a:hover{
@@ -158,9 +159,10 @@ nav a:hover{
     margin-right: 20vmin;
 }
 .l2 img{
+    margin-top: 5vmin;
     align-self: right;
-    height: 40vmin;
-    width: 70vmin;
+    height: 30vmin;
+    width: 60vmin;
     margin-right: 15vmin;
 }
 .l2 a:hover{
@@ -202,7 +204,7 @@ nav a:hover{
 .footer{
     display: flex;
     justify-content: space-between;
-    height: 35vmin;
+    height: 30vmin;
     text-align: center;
 }
 .footer div{
