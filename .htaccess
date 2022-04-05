@@ -1,6 +1,0 @@
-#remove html file extension https://example.com/page.html
-# to https://example.com/page
-
-RewriteEngine On 
-RewriteBase /
-
