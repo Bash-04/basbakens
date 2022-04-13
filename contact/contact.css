@@ -1,7 +1,15 @@
-/*general*/
-* {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(221, 221, 195);
-    font-family: Arial, Helvetica, sans-serif;
+.contact-form{
+    display: none;
+    background-color: rgb(168, 168, 147);
+    margin-top: 50vmin;
+    margin-left: 50vmin;
+}
+.form{
+    display: none;
+    background-color: rgb(168, 168, 147);
+    height: 80vmin;
+    width: 160vmin;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
