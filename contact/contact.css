@@ -1,19 +1,84 @@
 /*middenstuk*/
 .middenstuk{
-    height: 80vmin;
+    height: 85vmin;
 }
-.contact-form{
-    display: none;
-    background-color: rgb(168, 168, 147);
-    margin-top: 50vmin;
-    margin-left: 50vmin;
+
+form{
+    background-color: rgb(231, 231, 205);
+    max-width: 150vmin;
+    width: 80%;
+    height: 100%;
+    position: relative;
+    margin: auto auto auto auto;
+    padding: 4vmin;
+    border-radius: 3px;
+    box-sizing: border-box;
 }
-.form{
-    display: none;
-    background-color: rgb(168, 168, 147);
-    height: 80vmin;
-    width: 160vmin;
-    position: absolute;
-    top: 0;
-    left: 0;
+
+form h1{
+    background-color: rgb(231, 231, 205);
+    margin: 0;
+    text-align: center;
+}
+form div{
+    background-color: rgb(231, 231, 205);
+}
+
+label{
+    display: block;
+    margin: 2vmin 0;
+    background-color: rgb(231, 231, 205);
+}
+input, textarea{
+    width: 100%;
+    padding: 1vmin;
+    box-sizing: border-box;
+    background-color: rgb(231, 231, 205);
+    outline: none;
+    resize: none;
+    border: none;
+    border-bottom: .1vmin solid #D3D3D3;
+}
+
+input:focus, textarea:focus{
+    border-bottom: .1vmin solid #910007;
+}
+
+textarea::-webkit-scrollbar{
+    width: 1.6vmin;
+}
+textarea::-webkit-scrollbar-thumb{
+    background-color: #910007;
+}
+
+.center{
+    text-align: center;
+}
+.center input{
+    border-right: .1vmin solid #D3D3D3;
+    border-left: .1vmin solid #D3D3D3;
+    border-top: .1vmin solid #D3D3D3;
+}
+
+input[type="submit"]{
+    margin: 3vmin;
+    width: 90%;
+    max-width: 20vmin;
+    background: #910007;
+    font-size: 2.4vmin;
+    cursor: pointer;
+    border-radius: .3vmin;
+    color: #fff;
+}
+
+.error{
+    color: red;
+}
+.error-border{
+    border-bottom: .1vmin solid rgb(182, 12, 12);
+}
+
+#gelukt{
+    background-color: rgb(231, 231, 205);
+    color: #28Af45;
 }

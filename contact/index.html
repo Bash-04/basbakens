@@ -44,11 +44,29 @@
 
 <!--middenstuk-->
         <section class="middenstuk">
-            <section class="contact-form">
-                <section class="form">
-                    <h1>Contact me!</h1>
-                </section>
-            </section>
+            <div class="form" id="form">
+                <form onsubmit="event.preventDefault(); validateform()">
+                    <h1>Stuur mij een bericht</h1>
+
+                    <label for="name">Naam:</label>
+                    <input type="text" id="naam" placeholder="Voornaam Achternaam">
+                    <small class="error"></small>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Uw mail">
+                    <small class="error"></small>
+
+                    <label for="bericht">Bericht:</label>
+                    <textarea id="bericht" placeholder="Uw bericht" rows="6"></textarea>
+                    <small class="error"></small>
+
+                    <div class="center">
+                        <input type="submit" value="verstuur">
+                        <p id="gelukt"></p>
+                    </div>
+                </form>
+            </div>
+            <script src="contact.js"></script>
         </section>
 
 <!--footer-->
