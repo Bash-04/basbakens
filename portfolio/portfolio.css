@@ -1,5 +1,5 @@
 .middenstuk{
-    height: 75vmin;
+    height: 60vmin;
     display: flex;
     justify-content: space-evenly;
 }
@@ -16,8 +16,8 @@
     overflow: hidden;
 }
 .blok img{
-    width: 90vmin;
-    height: 45vmin;
+    width: 80vmin;
+    height: 40vmin;
 }
 .blok2{
     margin-top: 5vmin;
@@ -26,8 +26,8 @@
     overflow: hidden;
 }
 .blok2 img{
-    width: 90vmin;
-    height: 45vmin;
+    width: 80vmin;
+    height: 40vmin;
 }
 .layer{
     background: transparent;
@@ -42,9 +42,9 @@
     background: #910007;
 }
 .layer h1{
-    width: 90vmin;
+    width: 80vmin;
     text-align: center;
-    margin-top: 20vmin;
+    margin-top: 18vmin;
     font-weight: 500;
     color: white;
     font-size: 6vmin;
@@ -54,6 +54,6 @@
 .layer:hover h1{
     background-color: #910007;
     text-align: center;
-    margin-top: 20vmin;
+    margin-top: 18vmin;
     opacity: 1;
 }
