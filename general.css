@@ -56,8 +56,8 @@ nav a:hover{
     text-align: center;
 }
 .footer div{
-    margin-right: 5vmin;
-    margin-left: 15vmin;
+    margin-right: 8vmin;
+    margin-left: 8vmin;
 }
 .footer h1{
     font-size: 2.8vmin;
@@ -65,13 +65,13 @@ nav a:hover{
 }
 .footer hr{
     height: 0.2vmin;
-    width: 22.5vmin;
+    width: 25vmin;
     border: 1px black;
     background-color: black;
     color: black;
 }
 .footer p{
-    font-size: 1.8vmin;
+    font-size: 2.2vmin;
 }
 .footer a{
     color: inherit;
