@@ -1,8 +1,84 @@
-/*middenstuk*/
-.middenstuk{
-    height: 80vmin;
+/*portrait mode(nog in orde maken)*/
+@media (orientation: portrait) {
+.Ik{
+    display: block;
+    height: fit-content;
+    margin-left: 3vmin;
+    margin-bottom: 10vmin;
+}
+.Ik h1{
+    font-size: 7vmin;
+    font-weight: 500;
+    text-align: center;
+}
+.Ik p{
+    font-size: 3vmin;
+}
+.Ik hr{
+    margin-left: 10%;
+    border: .1vmin solid;
 }
 
-.middenstuk h1{
+.title{
+    display: none;
+}
+
+.title2{
+    justify-content: space-evenly;
+    margin-left: 15vmin;
+    margin-right: 10vmin;
+}
+.title2 hr{
+    height: 0.2vmin;
+    border: .1vmin black;
+    background-color: black;
+    color: black;
+}
+
+.paragraphs{
+    margin-left: 10vmin;
+}
+}
+
+/*landscape mode*/
+@media (orientation: landscape) {
+.Ik{
+    display: flex;
+    height: fit-content;
+    margin-left: 15vmin;
+    margin-bottom: 10vmin;
+}
+.Ik h1{
+    font-size: 7vmin;
+    font-weight: 500;
     text-align: center;
+}
+.Ik p{
+    font-size: 3vmin;
+    margin-right: 20vmin;
+}
+.Ik hr{
+    margin-left: 10%;
+    border: .1vmin solid;
+}
+
+.title2{
+    display: none;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.title hr{
+    height: 0.2vmin;
+    border: .1vmin black;
+    background-color: black;
+    color: black;
+}
+
+.paragraphs{
+    margin-left: 20vmin;
+}
 }
