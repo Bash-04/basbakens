@@ -1,6 +1,7 @@
 /*middenstuk*/
 .middenstuk{
-    height: 85vmin;
+    height: fit-content;
+    margin-bottom: 10vmin;
 }
 
 form{
