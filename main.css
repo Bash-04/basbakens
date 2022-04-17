@@ -26,7 +26,8 @@
 
 /*middenstuk*/
 .middenstuk{
-    height: 230vmin;
+    height: fit-content;
+    margin-bottom: 10vmin;
 }
 .middenstuk div{
     margin-top: 8vmin;

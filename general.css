@@ -6,6 +6,109 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/*portrait mode(nog in orde maken)*/
+@media (orientation: portrait){
+/*nav*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 2%;
+    }
+.navimage{
+    margin-top: 1vmin;
+    margin-left: 8vmin;
+}
+nav img{
+display: flex;
+    height: 17vmin;
+    width: 17vmin;
+    align-items: center;
+    border-radius: 10000px;
+}
+nav ul{
+    margin-right: 4vmin;
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    margin-right: 6vmin;
+    font-size: 3.5vmin;
+    font-weight: 500;
+    list-style: none;
+}
+nav a{
+    color: inherit;
+    text-decoration: inherit;
+}
+nav a:hover{
+color: #b80009;
+font-weight: 550;
+}
+.current-page a{
+    color: #910007;
+    font-weight: 600;
+}
+
+/*footer*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: fit-content;
+    text-align: center;
+    margin-bottom: 3vmin;
+}
+.footer div{
+    margin-right: 10vmin;
+    margin-left: 10vmin;
+    margin-bottom: 2vmin;
+}
+.footer h1{
+    font-size: 2.8vmin;
+    font-weight: 500;
+}
+.footer hr{
+    display: none;
+    height: 0.2vmin;
+    width: 25vmin;
+    border: 1px black;
+    background-color: black;
+    color: black;
+}
+.footer p{
+    font-size: 2.2vmin;
+}
+.footer a{
+    color: inherit;
+    text-decoration: inherit;
+    }
+.footer a:hover{
+    color: #910007;
+    font-weight: bold;
+}
+.footer li{
+    margin-top: 0.5vmin;
+    list-style: none;
+}
+
+.credit{
+    text-align: center;
+    margin-bottom: 2vmin;
+}
+.credit a{
+    font-size: 3vmin;
+    color: black;
+    text-decoration: inherit;
+    font-style: none;
+}
+.credit a:hover{
+    color: #910007;
+    font-weight: 500;
+}
+}
+
+@media (orientation: landscape){
 /*nav*/
 nav{
     display: flex;
@@ -99,4 +202,5 @@ nav a:hover{
 .credit a:hover{
     color: #910007;
     font-weight: 500;
+}
 }
