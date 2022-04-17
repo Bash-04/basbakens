@@ -1,5 +1,6 @@
 .middenstuk{
-    height: 60vmin;
+    height: fit-content;
+    margin-bottom: 10vmin;
     display: flex;
     justify-content: space-evenly;
 }
