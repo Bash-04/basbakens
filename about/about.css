@@ -2,3 +2,7 @@
 .middenstuk{
     height: 80vmin;
 }
+
+.middenstuk h1{
+    text-align: center;
+}
