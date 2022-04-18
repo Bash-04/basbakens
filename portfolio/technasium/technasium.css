@@ -17,6 +17,16 @@
     width: 60vmin;
     border: .3vmin solid;
 }
+.Technasium a{
+    color: #910007;
+    font-size: 6vmin;
+    font-weight: 600;
+    text-decoration: none;
+}
+.Technasium a:hover{
+    color: #6D7359;
+    font-weight: 300;
+}
 
 .kolom2{
     margin: auto auto auto 10vmin;
@@ -94,6 +104,16 @@
     width: 40vmin;
     border: .1vmin solid;
 }
+.Technasium a{
+    color: #910007;
+    font-size: 3vmin;
+    font-weight: 600;
+    text-decoration: none;
+}
+.Technasium a:hover{
+    color: #6D7359;
+    font-weight: 300;
+}
 
 .kolom{
     display: flex;
@@ -130,7 +150,7 @@
     border: .1vmin solid #910007;
     background: #910007;
     opacity: .8;
-
+    cursor: pointer;
 }
 .layer h1{
     width: 50vmin;
@@ -147,5 +167,6 @@
     text-align: center;
     margin-top: 14vmin;
     opacity: 1;
+    cursor: pointer;
 }
 }
