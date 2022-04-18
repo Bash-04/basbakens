@@ -1,7 +1,143 @@
-.middenstuk{
+/*Portrait mode (nog in orde maken)*/
+@media (orientation: portrait){
+.Technasium{
     height: fit-content;
     margin-bottom: 10vmin;
+    margin-left: 15vmin;
 }
-.middenstuk h1{
+.Technasium h1{
+    font-size: 10vmin;
+    font-weight: 500;
+}
+.Technasium p{
+    font-size: 6vmin;
+    margin-right: 5vmin;    
+}
+
+.kolom2{
+    margin: auto auto auto 10vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.kolom{
+    display: none;
+}
+
+.projecten{
+    display: flex;
+    flex-direction: column;
+}
+.project img{
+    margin: auto auto 10vmin auto;
+    height: 48vmin;
+    width: 72vmin;
+    border: .1vmin solid #fff;
+}
+.project{
+    position: relative;
+}
+.layer{
+    border: .1vmin solid #fff;
+    background: transparent;
+    height: 48vmin;
+    width: 72vmin;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    border: .1vmin solid #910007;
+    background: #910007;
+    opacity: .8;
+}
+.layer h1{
+    width: 50vmin;
     text-align: center;
+    margin: 24vmin auto auto auto;
+    font-weight: 500;
+    color: white;
+    font-size: 6vmin;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h1{
+    background-color: #910007;
+    text-align: center;
+    margin-top: 14vmin;
+    opacity: 1;
+}
+}
+
+/*Landscape mode*/
+@media (orientation: landscape){
+.Technasium{
+    height: fit-content;
+    margin-bottom: 10vmin;
+    margin-left: 15vmin;
+}
+.Technasium h1{
+    font-size: 7vmin;
+    font-weight: 500;
+}
+.Technasium p{
+    font-size: 3vmin;
+    margin-right: 20vmin;    
+}
+
+.kolom{
+    display: flex;
+    justify-content: space-evenly;
+}
+.kolom2{
+    display: none;
+}
+
+.projecten{
+    display: flex;
+    flex-direction: column;
+}
+.projecten img{
+    margin: auto auto 10vmin auto;
+    height: 32vmin;
+    width: 54vmin;
+    border: .1vmin solid #fff;
+}
+.project{
+    position: relative;
+}
+.layer{
+    border: .1vmin solid #fff;
+    background: transparent;
+    height: 32vmin;
+    width: 54vmin;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    border: .1vmin solid #910007;
+    background: #910007;
+    opacity: .8;
+
+}
+.layer h1{
+    width: 50vmin;
+    text-align: center;
+    margin: 16vmin auto auto auto;
+    font-weight: 500;
+    color: white;
+    font-size: 6vmin;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h1{
+    background-color: #910007;
+    text-align: center;
+    margin-top: 14vmin;
+    opacity: 1;
+}
 }
