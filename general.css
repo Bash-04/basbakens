@@ -52,6 +52,7 @@ font-weight: 550;
 
 /*footer*/
 .footer{
+    margin-left: 10vmin;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -93,6 +94,7 @@ font-weight: 550;
 }
 
 .credit{
+    margin-left: 10vmin;
     text-align: center;
     margin-bottom: 2vmin;
 }
