@@ -1,6 +1,7 @@
 /*header, nav*/
 .header{
-    height: 100vmin;
+    height: fit-content;
+    margin-bottom: 15vmin;
     width: 100%;
     background-position: center;
     background-size: cover;
