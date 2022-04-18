@@ -1,3 +1,74 @@
+/*portrait mode*/
+@media (orientation: portrait){
+.middenstuk{
+    height: fit-content;
+    margin-bottom: 10vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.rij1{
+    margin-left: 15vmin;
+    margin-bottom: 5vmin;
+    display: block;
+}
+.rij2{
+    margin-left: 15vmin;
+    margin-bottom: 5vmin;
+    display: block;
+}
+
+.blok{
+    border-radius: 1vmin grey;
+    position: relative;
+    overflow: hidden;
+}
+.blok img{
+    width: 60vmin;
+    height: 30vmin;
+}
+.blok2{
+    margin-top: 5vmin;
+    border-radius: 1vmin grey;
+    position: relative;
+    overflow: hidden;
+}
+.blok2 img{
+    width: 80vmin;
+    height: 40vmin;
+}
+.layer{
+    background: transparent;
+    height: 100vmin;
+    width: 100vmin;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: #910007;
+}
+.layer h1{
+    width: 80vmin;
+    text-align: center;
+    margin-top: 18vmin;
+    font-weight: 500;
+    color: white;
+    font-size: 6vmin;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h1{
+    background-color: #910007;
+    text-align: center;
+    margin-top: 18vmin;
+    opacity: 1;
+}
+}
+
+/*landscape mode*/
+@media (orientation: landscape){
 .middenstuk{
     height: fit-content;
     margin-bottom: 10vmin;
@@ -57,4 +128,5 @@
     text-align: center;
     margin-top: 18vmin;
     opacity: 1;
+}
 }
