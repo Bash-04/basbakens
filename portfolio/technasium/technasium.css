@@ -13,6 +13,10 @@
     font-size: 6vmin;
     margin-right: 5vmin;    
 }
+.Technasium hr{
+    width: 60vmin;
+    border: .3vmin solid;
+}
 
 .kolom2{
     margin: auto auto auto 10vmin;
@@ -85,6 +89,10 @@
 .Technasium p{
     font-size: 3vmin;
     margin-right: 20vmin;    
+}
+.Technasium hr{
+    width: 40vmin;
+    border: .1vmin solid;
 }
 
 .kolom{
