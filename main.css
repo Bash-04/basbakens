@@ -1,3 +1,169 @@
+/*portrait mode*/
+@media (orientation: portrait){
+/*header, nav*/
+.header{
+    height: fit-content;
+    margin-bottom: 15vmin;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+/*header text box*/
+.tb1{
+    margin-top: 5vmin;
+    text-align: center;
+}
+.tb1 h1{
+    font-size: 8.5vmin;
+    font-weight: 500;
+}
+.tb1 p{
+    font-size: 6.5vmin;
+    font-weight: 400;
+    margin-top: 1vmin;
+    margin-left: 10vmin;
+    margin-right: 10vmin;
+}
+
+/*middenstuk*/
+.middenstuk{
+    height: fit-content;
+    margin-bottom: 10vmin;
+}
+.middenstuk div{
+    margin-top: 8vmin;
+}
+.middenstuk a{
+    color: #910007;
+    font-size: 3vmin;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/*left 1*/
+.l1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 15vmin;
+}
+.l1 h1{
+    font-size: 7vmin;
+    font-weight: 500;
+}
+.l1 p{
+    font-size: 3vmin;
+    margin-right: 20vmin;
+}
+.l1 img{
+    margin-top: 5vmin;
+    align-self: right;
+    height: 40vmin;
+    width: 40vmin;
+    margin-right: 15vmin;
+    border-radius: 10000px;
+}
+.l1 a:hover{
+    color: #6D7359;
+    font-weight: 300;
+}
+
+/*right 1*/
+.r1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: right;
+    margin-right: 15vmin;
+}
+.r1 h1{
+    font-size: 7vmin;
+    font-weight: 500;
+}
+.r1 h2{
+    font-size: 4vmin;
+    font-weight: 500;
+}
+.r1 p{
+    font-size: 3vmin;
+    margin-left: 4vmin;
+}
+.r1 img{
+    margin-top: 8vmin;
+    margin-left: 10vmin;
+    height: 40vmin;
+    width: 80vmin;
+}
+.r1 a:hover{
+    color: #6D7359;
+    font-weight: 300;
+}
+
+/*left 2*/
+.l2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 15vmin;
+}
+.l2 h2{
+    font-size: 4vmin;
+    font-weight: 500;
+}
+.l2 p{
+    font-size: 3vmin;
+    margin-right: 20vmin;
+}
+.l2 img{
+    margin-top: 5vmin;
+    align-self: right;
+    height: 30vmin;
+    width: 60vmin;
+    margin-right: 15vmin;
+}
+.l2 a:hover{
+    color: #6D7359;
+    font-weight: 300;
+}
+
+/*right 2*/
+.r2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 14vmin;
+    margin-right: 15vmin;
+    text-align: right;
+}
+.r2 h1{
+    font-size: 7vmin;
+    font-weight: 500;
+}
+.r2 p{
+    font-size: 3vmin;
+}
+.r2 img{
+    margin-top: 15vmin;
+    height: 24vmin;
+    width: 80vmin;
+}
+.r2 li{
+    font-size: 3vmin;
+    list-style: none;
+}
+.r2 a:hover{
+    color: #6D7359;
+    font-weight: 300;
+}
+}
+
+
+
+/*landscape mode*/
+@media (orientation: landscape){
 /*header, nav*/
 .header{
     height: fit-content;
@@ -36,7 +202,7 @@
 .middenstuk a{
     color: #910007;
     font-size: 3vmin;
-    font-weight: 700;
+    font-weight: 600;
     text-decoration: none;
 }
 
@@ -151,4 +317,5 @@
 .r2 a:hover{
     color: #6D7359;
     font-weight: 300;
+}
 }
