@@ -59,7 +59,7 @@
 }
 .Ik hr{
     margin-left: 10%;
-    border: .1vmin solid;
+    border: .1vmin solid #000;
 }
 
 .title2{
@@ -70,6 +70,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    transform: rotate(-90deg);
+    margin: auto -5vmin auto auto;
 }
 .title hr{
     height: 0.2vmin;
