@@ -425,7 +425,7 @@
         transition: .4s;
     }
     
-    .red-btn{
+    .spot-btn{
         display: inline-block;
         text-decoration: none;
         color: #fff;
@@ -436,26 +436,6 @@
         background: transparent;
         position: absolute;
         margin-top: 60%;
-        margin-left: 40%;
-        cursor: pointer;
-    }
-    .red-btn:hover{
-        border: 1px solid #910007;
-        background: #910007;
-        transition: .4s;
-    }
-    
-    .spot-btn{
-        display: inline-block;
-        text-decoration: none;
-        color: #fff;
-        border: 1px solid #fff;
-        border-radius: 100px;
-        padding: 1.8rem 9.52rem;
-        font-size: 28px;
-        background: transparent;
-        position: absolute;
-        margin-top: 66%;
         margin-left: 40%;
         cursor: pointer;
     }
@@ -471,11 +451,11 @@
         color: #fff;
         border: 1px solid #fff;
         border-radius: 100px;
-        padding: 1.8rem 9.2rem;
+        padding: 1.8rem 9.52rem;
         font-size: 28px;
         background: transparent;
         position: absolute;
-        margin-top: 72%;
+        margin-top: 66%;
         margin-left: 40%;
         cursor: pointer;
     }
@@ -666,7 +646,7 @@
         transition: .4s;
     }
     
-    .red-btn{
+    .spot-btn{
         display: inline-block;
         text-decoration: none;
         color: #fff;
@@ -677,26 +657,6 @@
         background: transparent;
         position: absolute;
         margin-top: 67%;
-        margin-left: 40%;
-        cursor: pointer;
-    }
-    .red-btn:hover{
-        border: 1px solid #910007;
-        background: #910007;
-        transition: .4s;
-    }
-    
-    .spot-btn{
-        display: inline-block;
-        text-decoration: none;
-        color: #fff;
-        border: 1px solid #fff;
-        border-radius: 100px;
-        padding: 1.8rem 9.52rem;
-        font-size: 28px;
-        background: transparent;
-        position: absolute;
-        margin-top: 74%;
         margin-left: 40%;
         cursor: pointer;
     }
@@ -712,11 +672,11 @@
         color: #fff;
         border: 1px solid #fff;
         border-radius: 100px;
-        padding: 1.8rem 9.2rem;
+        padding: 1.8rem 9.52rem;
         font-size: 28px;
         background: transparent;
         position: absolute;
-        margin-top: 81%;
+        margin-top: 74%;
         margin-left: 40%;
         cursor: pointer;
     }
@@ -906,7 +866,7 @@
             transition: .4s;
         }
         
-        .red-btn{
+        .spot-btn{
             display: inline-block;
             text-decoration: none;
             color: #fff;
@@ -917,26 +877,6 @@
             background: transparent;
             position: absolute;
             margin-top: 74%;
-            margin-left: 39.5%;
-            cursor: pointer;
-        }
-        .red-btn:hover{
-            border: 1px solid #910007;
-            background: #910007;
-            transition: .4s;
-        }
-        
-        .spot-btn{
-            display: inline-block;
-            text-decoration: none;
-            color: #fff;
-            border: 1px solid #fff;
-            border-radius: 100px;
-            padding: 1.8rem 9.52rem;
-            font-size: 28px;
-            background: transparent;
-            position: absolute;
-            margin-top: 82%;
             margin-left: 39.5%;
             cursor: pointer;
         }
@@ -952,11 +892,11 @@
             color: #fff;
             border: 1px solid #fff;
             border-radius: 100px;
-            padding: 1.8rem 9.2rem;
+            padding: 1.8rem 9.52rem;
             font-size: 28px;
             background: transparent;
             position: absolute;
-            margin-top: 90%;
+            margin-top: 82%;
             margin-left: 39.5%;
             cursor: pointer;
         }
@@ -1146,7 +1086,7 @@
                 transition: .4s;
             }
             
-            .red-btn{
+            .spot-btn{
                 display: inline-block;
                 text-decoration: none;
                 color: #fff;
@@ -1157,26 +1097,6 @@
                 background: transparent;
                 position: absolute;
                 margin-top: 81%;
-                margin-left: 39%;
-                cursor: pointer;
-            }
-            .red-btn:hover{
-                border: 1px solid #910007;
-                background: #910007;
-                transition: .4s;
-            }
-            
-            .spot-btn{
-                display: inline-block;
-                text-decoration: none;
-                color: #fff;
-                border: 1px solid #fff;
-                border-radius: 100px;
-                padding: 1.8rem 9.52rem;
-                font-size: 28px;
-                background: transparent;
-                position: absolute;
-                margin-top: 90%;
                 margin-left: 39%;
                 cursor: pointer;
             }
@@ -1192,11 +1112,11 @@
                 color: #fff;
                 border: 1px solid #fff;
                 border-radius: 100px;
-                padding: 1.8rem 9.2rem;
+                padding: 1.8rem 9.52rem;
                 font-size: 28px;
                 background: transparent;
                 position: absolute;
-                margin-top: 99%;
+                margin-top: 90%;
                 margin-left: 39%;
                 cursor: pointer;
             }
@@ -1386,7 +1306,7 @@
                 transition: .4s;
             }
             
-            .red-btn{
+            .spot-btn{
                 display: inline-block;
                 text-decoration: none;
                 color: #fff;
@@ -1397,26 +1317,6 @@
                 background: transparent;
                 position: absolute;
                 margin-top: 88%;
-                margin-left: 38.5%;
-                cursor: pointer;
-            }
-            .red-btn:hover{
-                border: 1px solid #910007;
-                background: #910007;
-                transition: .4s;
-            }
-            
-            .spot-btn{
-                display: inline-block;
-                text-decoration: none;
-                color: #fff;
-                border: 1px solid #fff;
-                border-radius: 100px;
-                padding: 1.8rem 9.52rem;
-                font-size: 28px;
-                background: transparent;
-                position: absolute;
-                margin-top: 98%;
                 margin-left: 38.5%;
                 cursor: pointer;
             }
@@ -1432,11 +1332,11 @@
                 color: #fff;
                 border: 1px solid #fff;
                 border-radius: 100px;
-                padding: 1.8rem 9.2rem;
+                padding: 1.8rem 9.52rem;
                 font-size: 28px;
                 background: transparent;
                 position: absolute;
-                margin-top: 108%;
+                margin-top: 98%;
                 margin-left: 38.5%;
                 cursor: pointer;
             }
@@ -1652,11 +1552,11 @@
                 color: #fff;
                 border: 1px solid #fff;
                 border-radius: 100px;
-                padding: 1.8rem 9.52rem;
+                padding: 1.8rem 9.7rem;
                 font-size: 28px;
                 background: transparent;
                 position: absolute;
-                margin-top: 107%;
+                margin-top: 96%;
                 margin-left: 38%;
                 cursor: pointer;
             }
@@ -1672,11 +1572,11 @@
                 color: #fff;
                 border: 1px solid #fff;
                 border-radius: 100px;
-                padding: 1.8rem 9.2rem;
+                padding: 1.8rem 9.52rem;
                 font-size: 28px;
                 background: transparent;
                 position: absolute;
-                margin-top: 118%;
+                margin-top: 107%;
                 margin-left: 38%;
                 cursor: pointer;
             }
@@ -1866,7 +1766,7 @@
                 transition: .4s;
             }
             
-            .red-btn{
+            .spot-btn{
                 display: inline-block;
                 text-decoration: none;
                 color: #fff;
@@ -1877,26 +1777,6 @@
                 background: transparent;
                 position: absolute;
                 margin-top: 110%;
-                margin-left: 32%;
-                cursor: pointer;
-            }
-            .red-btn:hover{
-                border: 1px solid #910007;
-                background: #910007;
-                transition: .4s;
-            }
-            
-            .spot-btn{
-                display: inline-block;
-                text-decoration: none;
-                color: #fff;
-                border: 1px solid #fff;
-                border-radius: 100px;
-                padding: 1.8rem 9.52rem;
-                font-size: 28px;
-                background: transparent;
-                position: absolute;
-                margin-top: 122%;
                 margin-left: 32%;
                 cursor: pointer;
             }
@@ -1912,11 +1792,11 @@
                 color: #fff;
                 border: 1px solid #fff;
                 border-radius: 100px;
-                padding: 1.8rem 9.2rem;
+                padding: 1.8rem 9.52rem;
                 font-size: 28px;
                 background: transparent;
                 position: absolute;
-                margin-top: 134%;
+                margin-top: 122%;
                 margin-left: 32%;
                 cursor: pointer;
             }
