@@ -3,7 +3,7 @@
 /*header, nav*/
 .header{
     height: fit-content;
-    margin-bottom: 15vmin;
+    margin-bottom: 15vh;
     width: 100%;
     background-position: center;
     background-size: cover;
@@ -12,32 +12,32 @@
 
 /*header text box*/
 .tb1{
-    margin-top: 5vmin;
+    margin-top: 5vh;
     text-align: center;
 }
 .tb1 h1{
-    font-size: 8.5vmin;
+    font-size: 12vmin;
     font-weight: 500;
 }
 .tb1 p{
-    font-size: 6.5vmin;
-    font-weight: 400;
-    margin-top: 1vmin;
-    margin-left: 10vmin;
-    margin-right: 10vmin;
+    font-size: 9vmin;
+    font-weight: 500;
+    margin-top: 1vh;
+    margin-left: 8vw;
+    margin-right: 8vw;
 }
 
 /*middenstuk*/
 .middenstuk{
     height: fit-content;
-    margin-bottom: 10vmin;
+    margin-bottom: 10vh;
 }
 .middenstuk div{
-    margin-top: 8vmin;
+    margin-top: 8vh;
 }
 .middenstuk a{
     color: #910007;
-    font-size: 3vmin;
+    font-size: 7vmin;
     font-weight: 600;
     text-decoration: none;
 }
@@ -47,22 +47,21 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-left: 15vmin;
+    margin-left: 5vw;
 }
 .l1 h1{
-    font-size: 7vmin;
+    font-size: 10vmin;
     font-weight: 500;
 }
 .l1 p{
-    font-size: 3vmin;
-    margin-right: 20vmin;
+    font-size: 7vmin;
+    margin-right: 5vw;
 }
 .l1 img{
-    margin-top: 5vmin;
-    align-self: right;
+    margin-top: 5vh;
     height: 40vmin;
     width: 40vmin;
-    margin-right: 15vmin;
+    margin-right: 12vw;
     border-radius: 10000px;
 }
 .l1 a:hover{
@@ -75,24 +74,23 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    text-align: right;
-    margin-right: 15vmin;
+    text-align: left;
+    margin-left: 5vw;
 }
 .r1 h1{
-    font-size: 7vmin;
+    font-size: 10vmin;
     font-weight: 500;
 }
 .r1 h2{
-    font-size: 4vmin;
+    font-size: 9vmin;
     font-weight: 500;
 }
 .r1 p{
-    font-size: 3vmin;
-    margin-left: 4vmin;
+    font-size: 7vmin;
+    margin-right: 5vw;
 }
 .r1 img{
-    margin-top: 8vmin;
-    margin-left: 10vmin;
+    margin-top: 8vh;
     height: 40vmin;
     width: 80vmin;
 }
@@ -106,22 +104,21 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    margin-left: 15vmin;
+    margin-left: 5vw;
 }
 .l2 h2{
-    font-size: 4vmin;
+    font-size: 9vmin;
     font-weight: 500;
 }
 .l2 p{
-    font-size: 3vmin;
-    margin-right: 20vmin;
+    font-size: 7vmin;
+    margin-right: 5vw;
 }
 .l2 img{
-    margin-top: 5vmin;
-    align-self: right;
+    margin-top: 5vh;
     height: 30vmin;
     width: 60vmin;
-    margin-right: 15vmin;
+    margin-right: 5vw;
 }
 .l2 a:hover{
     color: #6D7359;
@@ -134,24 +131,24 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 14vmin;
-    margin-right: 15vmin;
-    text-align: right;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 .r2 h1{
-    font-size: 7vmin;
+    font-size: 10vmin;
     font-weight: 500;
 }
 .r2 p{
-    font-size: 3vmin;
+    font-size: 7vmin;
+    margin-right: 5vw;
 }
 .r2 img{
-    margin-top: 15vmin;
+    margin-top: 15vh;
     height: 24vmin;
     width: 80vmin;
 }
 .r2 li{
-    font-size: 3vmin;
+    font-size: 7vmin;
     list-style: none;
 }
 .r2 a:hover{

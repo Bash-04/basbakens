@@ -2,16 +2,16 @@
 @media (orientation: portrait){
 .Technasium{
     height: fit-content;
-    margin-bottom: 10vmin;
-    margin-left: 15vmin;
+    margin-bottom: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
 }
 .Technasium h1{
     font-size: 10vmin;
     font-weight: 500;
 }
 .Technasium p{
-    font-size: 6vmin;
-    margin-right: 5vmin;    
+    font-size: 7vmin; 
 }
 .Technasium hr{
     width: 60vmin;
@@ -19,7 +19,7 @@
 }
 .Technasium a{
     color: #910007;
-    font-size: 6vmin;
+    font-size: 7vmin;
     font-weight: 600;
     text-decoration: none;
 }
@@ -29,7 +29,7 @@
 }
 
 .kolom2{
-    margin: auto auto auto 10vmin;
+    margin: auto 5vw auto 5vw;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -44,7 +44,7 @@
     flex-direction: column;
 }
 .project img{
-    margin: auto auto 10vmin auto;
+    margin: auto auto 10vh auto;
     height: 48vmin;
     width: 72vmin;
     border: .1vmin solid #fff;
@@ -70,17 +70,17 @@
 .layer h1{
     width: 50vmin;
     text-align: center;
-    margin: 24vmin auto auto auto;
+    margin: 24vh auto auto auto;
     font-weight: 500;
     color: white;
-    font-size: 6vmin;
+    font-size: 7vmin;
     opacity: 0;
     transition: 0.5s;
 }
 .layer:hover h1{
     background-color: #910007;
     text-align: center;
-    margin-top: 14vmin;
+    margin-top: 14vh;
     opacity: 1;
 }
 }
